@@ -13,10 +13,17 @@ namespace TiposVarios
             string s = "Unicode \u0b80";
             string h = "Copyright \u0ce0";
             string d = "Unicode \x0040";
+            string p = "a" + 6;
+            string i = "bbb" + 9;
+            string z = $"valor de z e´ {9}";
+
 
             Console.WriteLine(s);
             Console.WriteLine(h);
             Console.WriteLine(d);
+            Console.WriteLine(p);
+            Console.WriteLine(i);
+            Console.WriteLine(z);
             Console.ReadKey();
         }
     }
